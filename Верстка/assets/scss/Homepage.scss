@@ -165,13 +165,96 @@ body{
                             font-weight: 700;
                         }
                     }
-
-
                 }
+
+                &__slider{
+                    margin: 20px 0 0 30px;
+                }
+
+                &__price{
+                    font-size: 15px;
+                    line-height: 16px;
+                    color: #3D3D3D;
+                    margin: 15px 0 0 30px;
+
+                    span{
+                        font-weight: 700;
+                        color: #46A358;
+                    }
+                }
+
+                &__btn{
+                    width: 90px;
+                    height: 35px;
+                    font-family: CeraPro;
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: white;
+                    border-radius: 6px;
+                    border: none;
+                    background-color: #46A358;
+                    margin: 16px 0 0 30px;
+                }
+
             }
 
             &__filter:nth-of-type(2){
                 margin: 36px 0 0 0;
+            }
+
+            &__filter:nth-of-type(3){
+                margin: 46px 0 0 0;
+            }
+
+            &__sale{
+                margin: 30px 0 0 0;
+            }
+        }
+
+        &__sorting{
+            margin: 0 0 0 50px;
+
+            &__options{
+                width: 840px;
+                display: flex;
+                justify-content: space-between;
+
+                &__trio{
+                    width: 260px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    p{
+                        font-size: 15px;
+                        line-height: 16px;
+                        color: #3D3D3D;
+                    }
+
+                    p:nth-of-type(1){
+                        font-weight: 700;
+                        color: #46A358;
+                    }
+
+                    &__line{
+                        position: absolute;
+                        margin: 23px 0 0 0;
+                    }
+                }
+
+                &__description{
+                    display: flex;
+                    color: #3D3D3D;
+                    font-size: 15px;
+                    line-height: 16px;
+
+                    p:nth-of-type(2){
+                        margin: 0 0 0 8px;
+                    }
+
+                    img{
+                        margin: 0 0 0 5px;
+                    }
+                }
             }
         }
     }
