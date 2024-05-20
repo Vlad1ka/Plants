@@ -525,6 +525,8 @@ body {
   display: flex;
   align-items: center;
   background-color: rgba(70, 163, 88, 0.1019607843);
+  border-bottom: 1px solid rgba(70, 163, 88, 0.1019607843);
+  border-top: 1px solid rgba(70, 163, 88, 0.1019607843);
 }
 .footer__content__info__column {
   width: 220px;
@@ -550,6 +552,7 @@ body {
   height: 236px;
   background-color: #FBFBFB;
   padding: 33px 0 0 23px;
+  border-bottom: 1px solid rgba(70, 163, 88, 0.2);
 }
 .footer__content__feedback__columns {
   display: flex;
@@ -590,4 +593,11 @@ body {
 }
 .footer__content__feedback__columns__column:nth-of-type(4) {
   margin: 0 0 0 147px;
+}
+.footer__content__allRights {
+  text-align: center;
+  color: #3D3D3D;
+  margin: 7px 0 0 0;
+  font-size: 14px;
+  line-height: 30px;
 }/*# sourceMappingURL=Homepage.css.map */
